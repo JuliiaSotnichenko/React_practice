@@ -1,4 +1,5 @@
-import AppHeader from './app-haeder';
+import AppHeader from './app-header';
+import './app-header.css';
 
 export default AppHeader;
 
