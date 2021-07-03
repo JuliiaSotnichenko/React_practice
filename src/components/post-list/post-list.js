@@ -7,9 +7,9 @@ const PostList = () => {
     return (
         <div>
             <ul className="app-list list-group">
-                <PistlistItem/>
-                <PistlistItem/>
-                <PistlistItem/>
+                <PistlistItem label="Goin to learn React" important/>
+                <PistlistItem  label="That is so good "/>
+                <PistlistItem  label="I need a break"/>
             </ul>
         </div>
     )

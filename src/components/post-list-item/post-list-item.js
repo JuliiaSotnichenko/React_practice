@@ -1,10 +1,17 @@
 import React from 'react';
 
-const PostListItem = () => {
+const PostListItem = ({label, important = false}) => {
+
+    let classNames = "app-list-item d-fex justify-content-between ";
+    if(important) {
+        classNames += ' important';
+    }
     return (
-        <li className="app-list-item d-flex justify-content-between">
+        <li className={classNames}>
             <span className="app-list-item-label">
-                Hello
+                {/* Dynamic */}
+                {/* Hello */}
+                {label}
             </span>
             <div className="d-flex justify-content-center align-items-center">
                 <button type="button" className="btn-star btn-sm">
